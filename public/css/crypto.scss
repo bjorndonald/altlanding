@@ -1,0 +1,424 @@
+.cryptoSectionOne {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      160deg,
+      rgba(8, 33, 87, 1) 25%,
+      rgba(252, 66, 123, 0.9318102240896359) 100%
+    );
+    z-index: -2;
+  }
+
+  #BtcUsdChart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    z-index: -1;
+  }
+
+  .container {
+    margin-top: 0%;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    color: white;
+    text-align: center;
+  }
+
+  .row {
+    h2 {
+      font-size: 2.5rem;
+      color: white;
+    }
+
+    .cryptoTextWrap {
+      display: flex;
+      justify-content: space-between;
+      width: 50rem;
+      height: 4rem;
+      border-radius: 3.125rem;
+      background-color: #fff;
+      padding-left: 2rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      padding-right: 0.5rem;
+
+      input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 1.5rem;
+        width: 24rem;
+      }
+      //
+
+      .btn {
+        // width: 15rem;
+        // height: 100%;
+        background-color: #0d469f;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5vh;
+        padding: 1vh 5vh;
+        font-weight: bold;
+        font-size: 3vh;
+
+        span:hover {
+          text-decoration: underline;
+        }
+
+        &:hover {
+          text-decoration: underline;
+          background: #10309b none repeat scroll 0 0;
+        }
+      }
+    }
+  }
+}
+
+.cryptoSectionTwo {
+  height: 90vh;
+  background-color: #f8f7fc;
+
+  .container {
+    max-width: 90%;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .card {
+    padding: 3rem;
+    text-align: center;
+    img {
+      height: 8rem;
+    }
+
+    h4 {
+      margin: 1rem 0;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+      line-height: 2.25rem;
+      font-weight: bold;
+      color: #333;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .col-md-2 {
+      flex: 0 0 22%;
+      max-width: 22%;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .col-sm-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .col-md-10-5 {
+      width: 9.523809523809524%; // 100 / 10.5
+    }
+
+    .col-md-1-5 {
+      width: 66.666666666%; // 100 / 1.5
+    }
+  }
+}
+
+.cryptoSectionThree {
+  background: linear-gradient(
+    160deg,
+    rgba(8, 33, 87, 1) 25%,
+    rgba(252, 66, 123, 0.9318102240896359) 100%
+  );
+
+  .container {
+    max-width: 90%;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .card {
+    padding: 5rem 0;
+    border-radius: 3.125rem;
+  }
+
+  .col-md-3 {
+    img {
+      height: 14rem;
+    }
+
+    p {
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
+    span {
+      font-size: 1.25rem;
+    }
+
+    .negative-change {
+      color: #d22b2b;
+    }
+
+    .positive-change {
+      color: #3ab194;
+    }
+  }
+}
+
+.cryptoSectionFour {
+  height: 180vh;
+  background-color: #f8f7fc;
+  .container {
+    max-width: 90%;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+  }
+
+  .card {
+    border: none;
+    h4 {
+      font-size: 2rem;
+      margin: 1.5rem 0;
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 3rem;
+      text-align: center;
+      font-weight: bold;
+      color: #333;
+    }
+  }
+
+  .fees-section {
+    margin-top: 5rem;
+    font-family: eina;
+
+    .fee {
+      padding: 0 3rem;
+    }
+
+    .tab-content {
+      width: 100%;
+
+      img {
+        width: 12rem;
+      }
+
+      .card {
+        border-radius: 3.125rem;
+        h3 {
+          font-size: 1.75rem;
+        }
+
+        .line {
+          width: 100%;
+          height: 1px;
+          background-color: #ccc;
+          margin: 2rem 0;
+        }
+
+        .row {
+          width: 100%;
+          margin-bottom: 0;
+          align-items: center;
+          flex-wrap: nowrap;
+
+          svg {
+            width: 1rem;
+            fill: #7bb4a5;
+            path {
+              fill: #7bb4a5;
+            }
+            margin-right: 1rem;
+          }
+
+          b {
+            color: #777;
+            font-weight: normal;
+          }
+
+          p {
+            font-size: 1.25rem;
+            margin-bottom: 0;
+            font-weight: bold;
+            line-height: 1.75rem;
+
+            span {
+              color: #777;
+            }
+          }
+        }
+      }
+    }
+
+    .nav-link {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-link.active {
+      text-decoration: underline;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      color: #000;
+      text-align: center;
+      margin-bottom: 0.75rem;
+    }
+    .tab-content {
+    }
+  }
+
+  h1 {
+    color: #db0e72;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .steps {
+    .card {
+      padding: 4rem 2rem;
+
+      img {
+        height: 8rem;
+      }
+
+      // p {
+      //   font-size: 1rem;
+      //   text-align: center;
+      // }
+    }
+
+    @media (min-width: 768px) {
+      .col-md-3 {
+        flex: 0 0 31%;
+        max-width: 31%;
+      }
+    }
+
+    @media (min-width: 576px) {
+      .col-sm-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+      }
+    }
+  }
+}
+
+.cryptoSectionFive {
+  padding: 3rem 0;
+  background: linear-gradient(
+    160deg,
+    rgba(8, 33, 87, 1) 25%,
+    rgba(252, 66, 123, 0.9318102240896359) 100%
+  );
+  height: 60vh;
+  .link {
+    text-decoration: underline;
+    margin: 0 1rem;
+    color: white;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+
+    img {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+
+  hr {
+    width: 5rem;
+    height: 1px;
+    background-color: white;
+  }
+
+  .cryptoTextWrap {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+    height: 4rem;
+    border-radius: 3.125rem;
+    background-color: #fff;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+
+    input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+
+      font-size: 1.5rem;
+      width: 24rem;
+    }
+
+    .btn {
+      background-color: #0d469f;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5vh;
+      padding: 1vh 5vh;
+      font-weight: bold;
+      font-size: 3vh;
+
+      &:hover {
+        background: #10309b none repeat scroll 0 0;
+      }
+      span:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.cryptoSectionFive {
+  .btn-blue {
+    padding: 0.5rem 1rem;
+    background-color: #0d2461;
+    color: white;
+    margin: 0 0.1255rem;
+  }
+}
+//

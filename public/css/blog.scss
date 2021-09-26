@@ -1,0 +1,108 @@
+.blogSectionOne {
+  padding-bottom: 10vh;
+  .container {
+    margin-top: 0;
+
+    .card-body {
+      margin-left: 1rem;
+    }
+  }
+  .cord {
+    position: absolute;
+    height: calc(100% - 8rem);
+    width: 0.5rem;
+    // top: ;
+    left: 14.5rem;
+    z-index: -2;
+    background-color: black;
+
+    .tip {
+      position: absolute;
+      height: 2rem;
+      width: 2rem;
+      border-radius: 50%;
+      background-color: #000;
+      bottom: -0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      left: -0.75rem;
+
+      &::after {
+        content: '';
+        background-color: #fff;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 500%;
+      }
+    }
+  }
+
+  .top-title {
+    margin-top: 10vh;
+  }
+
+  .card {
+    border: none;
+    background-color: transparent;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
+  .button {
+    width: 100%;
+
+    .btn {
+      font-size: 1.75rem;
+    }
+    .d-flex {
+      padding-left: 1rem;
+      width: 28rem;
+    }
+  }
+}
+.blogSectionTwo {
+  background-color: #000;
+  color: #fff;
+  height: 70vh;
+
+  h4 {
+    // font-weight: lighter;
+    font-family: eina;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    background-color: #fff;
+    font-size: 1.75rem;
+    color: #000 !important;
+  }
+}
+
+.blogSectionOne {
+  .placeholder-image {
+    height: 18rem;
+  }
+
+  .smallCard {
+    margin-bottom: 12rem;
+  }
+
+  h5 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  h5:hover {
+    text-decoration: underline;
+  }
+  p {
+    font-size: 2rem;
+    text-align: center;
+  }
+}

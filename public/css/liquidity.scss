@@ -1,0 +1,104 @@
+.placeholder-image {
+  min-width: 28rem;
+  height: 24rem;
+  background-color: #000;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  span {
+    color: #fff;
+  }
+}
+
+.registerSectionOne {
+  padding-top: 5vh;
+  height: 80vh;
+
+  h1 {
+    text-align: center;
+  }
+}
+
+.tradingBasicSectionThree {
+  h2 {
+    color: #000;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    // margin-bottom: 7rem;
+  }
+}
+
+.liquiditySectionTwo,
+.liquiditySectionThree,
+.liquiditySectionFour,
+.liquiditySectionFive {
+  h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.liquiditySectionOne {
+  height: 70vh;
+  .container {
+    margin-top: 10vh;
+  }
+  h1 {
+    font-size: 8vh;
+    text-align: center;
+  }
+
+  p {
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    font-size: 3.5vh;
+  }
+
+  .btn {
+    border-radius: 5vh;
+    padding: 1vh 5vh;
+    font-size: 3vh;
+  }
+}
+
+.liquiditySectionTwo,
+.liquiditySectionThree,
+.liquiditySectionFour,
+.liquiditySectionFive {
+  height: 50vh;
+}
+
+.liquiditySectionFaq {
+  min-height: 70vh;
+  margin-bottom: 5vh;
+
+  .accordion-section {
+    min-height: 60vh;
+
+    button {
+      position: relative;
+      padding: 2rem 0 !important;
+      h6 {
+        font-size: 1.875rem;
+        width: 95%;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-family: futura-pt;
+      }
+
+      span {
+        position: absolute;
+        right: 0;
+        top: calc((100% - 2.5rem) / 2);
+      }
+    }
+    .card-body {
+      font-size: 1rem !important;
+      font-weight: normal;
+    }
+  }
+}

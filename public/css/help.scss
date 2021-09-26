@@ -1,0 +1,593 @@
+.sectionTwoNav {
+  ul {
+    margin-top: -2rem;
+    li {
+      font-family: eina;
+      display: flex;
+      justify-content: flex-end;
+      text-align: right;
+      font-weight: normal;
+      margin-bottom: 1rem;
+      i {
+        width: 1rem;
+        font-size: 1rem;
+        // color: white;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+.articlesSectionTwo {
+  svg {
+    width: 3rem;
+    height: 3rem;
+    stroke: #818a97;
+  }
+  .nav-item {
+    margin-bottom: 1rem;
+  }
+
+  .nav-link.active {
+    text-decoration: underline;
+  }
+  h1 {
+    font-size: 2.0625rem;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+  }
+
+  .body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #565867;
+  }
+  .article {
+    border-bottom: 1px #ccc solid;
+    cursor: pointer;
+    // display: flex;
+    // justify-content: center;
+
+    .placeholder-image {
+      width: 18rem;
+      height: 14rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    h4 {
+      font-size: 1.125rem;
+      font-weight: lighter;
+    }
+
+    h5 {
+      font-size: 1rem;
+      font-weight: lighter;
+      color: #565867;
+    }
+  }
+}
+
+.cryptoHelpSectionOne {
+  // height: 180vh;
+  padding: 10vh 0;
+  background-color: #f8f7fc;
+  .container {
+    max-width: 90%;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+  }
+
+  .card {
+    h4 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 3rem;
+      text-align: center;
+      font-weight: normal;
+      color: #333;
+    }
+  }
+
+  .crypto-section {
+    font-family: eina;
+    min-height: 60vh;
+
+    .fees-section {
+      margin-top: 5rem;
+    }
+
+    .tab-content {
+      width: 100%;
+
+      img {
+        width: 12rem;
+      }
+
+      .card {
+        background-color: white;
+        border-radius: 3.125rem;
+        h3 {
+          font-size: 1.75rem;
+        }
+
+        .line {
+          width: 100%;
+          height: 1px;
+          background-color: #ccc;
+          margin: 2rem 0;
+        }
+
+        .row {
+          width: 100%;
+          margin-bottom: 0;
+          align-items: center;
+          flex-wrap: nowrap;
+
+          svg {
+            width: 1rem;
+            fill: #7bb4a5;
+            path {
+              fill: #7bb4a5;
+            }
+            margin-right: 1rem;
+          }
+
+          b {
+            color: #777;
+            font-weight: normal;
+          }
+
+          p {
+            font-size: 1.25rem;
+            margin-bottom: 0;
+            // font-weight: bold;
+            line-height: 1.75rem;
+
+            span {
+              color: #777;
+            }
+          }
+        }
+      }
+    }
+
+    .nav-link {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-link.active {
+      text-decoration: underline;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      color: #000;
+      text-align: center;
+      margin-bottom: 0.75rem;
+    }
+    .tab-content {
+    }
+  }
+
+  h1 {
+    color: #db0e72;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .steps {
+    .card {
+      padding: 4rem 2rem;
+
+      img {
+        height: 8rem;
+      }
+
+      // p {
+      //   font-size: 1rem;
+      //   text-align: center;
+      // }
+    }
+
+    @media (min-width: 768px) {
+      .col-md-3 {
+        flex: 0 0 31%;
+        max-width: 31%;
+      }
+    }
+
+    @media (min-width: 576px) {
+      .col-sm-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+      }
+    }
+  }
+}
+
+.helpCenterSectionOne {
+  .helpCenterSearchBox {
+    background-color: #f0f0f0;
+    border-radius: 5vh;
+
+    input {
+    }
+  }
+
+  h1 {
+    font-weight: bolder;
+    font-size: 8vh;
+  }
+  h3 {
+    margin-top: 1.6vh;
+    margin-bottom: 3.2vh;
+    font-size: 4.32vh;
+  }
+
+  .searchField {
+    font-family: eina;
+    font-weight: bold;
+  }
+
+  input {
+    border: none;
+  }
+
+  .input-group-prepend {
+    border: none;
+    border-bottom-right-radius: 3.125rem;
+    border-top-right-radius: 3.125rem;
+  }
+
+  .input-group-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.helpCenterSectionTwo .container {
+  margin-top: 0;
+
+  h2 {
+    font-weight: bolder;
+    // font-size: 2.25rem;
+    font-size: 3.8rem;
+  }
+
+  .eyntkBoxs .col-md-5 {
+    padding: 2rem 2rem;
+  }
+
+  .eyntkBox {
+    border-radius: 1.65rem;
+  }
+
+  .eyntkBoxOne {
+    video {
+      width: 10rem;
+      bottom: -3rem;
+      right: 1rem;
+    }
+  }
+
+  .eyntkBoxThree {
+    video {
+      width: 14.5rem;
+      height: 14.5rem;
+      bottom: -1rem;
+      right: -1rem;
+    }
+  }
+
+  .eyntkBoxFour {
+    video {
+      width: 14.5rem;
+      height: 14.5rem;
+      bottom: 1rem;
+      right: 1rem;
+    }
+  }
+
+  .eyntkBoxTwo {
+    video {
+      width: 14.5rem;
+      height: 14.5rem;
+      bottom: -1.5rem;
+      right: -1rem;
+    }
+  }
+
+  .eyntkBox {
+    padding: 3rem 1rem 2rem 2rem;
+    background-color: transparent;
+    color: white;
+    position: relative;
+
+    overflow: hidden;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    .background {
+      position: absolute;
+      background-color: black !important;
+      z-index: -2;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    video {
+      position: absolute;
+      z-index: -1;
+    }
+
+    h3 {
+      text-align: left;
+      color: white;
+      font-size: 2.25rem;
+    }
+
+    h3:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    p {
+      margin: 0;
+      text-align: left;
+      font-size: 1.65rem;
+    }
+  }
+}
+
+.articleSectionOne {
+  height: 40vh;
+}
+
+.articleSectionTwo {
+  .intercom-container {
+    img {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+
+  .intercom-interblocks-table-container {
+    table {
+      color: #000;
+      //   font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  }
+
+  .intercom-align-center {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    padding: 4rem 2rem;
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-weight: normal;
+    }
+
+    b {
+      font-weight: bolder;
+    }
+
+    // background-color: white;
+    // border: 1px solid #ccc;
+  }
+}
+
+.articlesSectionOne {
+  height: 45vh;
+}
+
+.articlesSectionTwo {
+  h4 {
+    font-size: 1rem;
+  }
+}
+
+.helpCenterSectionThree {
+  .container {
+    margin-top: 0;
+  }
+
+  .article {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+
+    .placeholder-image {
+      width: 100%;
+      min-width: 100%;
+      aspect-ratio: auto 288 / 224;
+      height: 224px;
+      border-radius: 1.5625rem;
+    }
+
+    .left {
+      padding: 0;
+
+      .image {
+        width: 100%;
+        min-width: 100%;
+        aspect-ratio: auto 288 / 224;
+        height: 224px;
+        border-radius: 1.5625rem;
+        position: relative;
+        overflow: hidden;
+
+        img {
+          position: absolute;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    .right {
+      display: inline-flex;
+      padding-left: 3vh;
+    }
+
+    h1 {
+      text-align: left;
+      font-size: 2rem;
+    }
+
+    p {
+      text-align: left;
+      font-size: 1rem;
+    }
+
+    h4 {
+    }
+
+    h5 {
+    }
+  }
+}
+
+.helpCenterSectionFour {
+  height: 650px;
+
+  .body {
+    justify-content: center;
+  }
+
+  .article-images {
+    img {
+      width: 30rem;
+      height: 18.925rem;
+      border-radius: 1.5625rem;
+    }
+  }
+
+  .placeholder-image {
+    width: 460px;
+    min-width: 460px;
+    aspect-ratio: auto 288 / 224;
+    height: 300px;
+  }
+  .sectionTitleWrap {
+    margin-bottom: 6rem;
+
+    h2 {
+      font-size: 3rem;
+    }
+  }
+
+  .list {
+    // padding-left: 80px;
+    width: auto;
+    h3.active {
+      font-family: eina;
+      font-weight: bolder;
+      font-size: 60px;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    h3:hover {
+      text-decoration: underline;
+    }
+
+    h3 {
+      cursor: pointer;
+      font-family: eina;
+      font-weight: bolder;
+      text-align: right;
+      font-size: 28px;
+    }
+
+    h4 {
+      font-family: eina;
+      text-align: right;
+      font-weight: bolder;
+      font-size: 28px;
+    }
+  }
+}
+
+.liquidity-section {
+  .card-body {
+    p {
+      text-align: left;
+    }
+  }
+}
+
+.helpCenterSectionFive {
+  height: 600px;
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+  }
+  .btn {
+    border-radius: 5vh;
+    padding: 1vh 5vh;
+    font-size: 3vh;
+  }
+
+  .btn:hover {
+    text-decoration: underline;
+  }
+}
+
+nav {
+  .breadcrumb {
+    background-color: transparent;
+
+    .breadcrumb-item + .breadcrumb-item::before {
+      float: left;
+      padding-right: 0.5rem;
+      color: #6c757d;
+      content: '>';
+    }
+  }
+}

@@ -1,0 +1,169 @@
+.faqsSectionOne {
+  .nav-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .nav-link.active {
+    text-decoration: underline;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+  .nav-switch {
+    .nav-link.active {
+      text-decoration: none;
+    }
+
+    .nav-link:hover {
+      text-decoration: none;
+    }
+    .nav {
+      position: relative;
+      width: 14rem;
+      height: 3rem;
+
+      .nav-item {
+        position: absolute;
+        top: 0;
+        height: 3rem;
+        width: 8rem;
+
+        .nav-link {
+          background-color: #000000;
+          color: white;
+          width: 100%;
+          font-size: 1rem;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 1.875rem;
+        }
+
+        .nav-link.active {
+          background-color: #ebeef5;
+          color: black;
+          border: none;
+          border-radius: 1.875rem;
+          z-index: 4;
+        }
+      }
+
+      .nav-item {
+      }
+
+      .nav-item:first-child {
+        left: 0;
+      }
+
+      .nav-item:first-child .nav-link {
+        padding-right: 2rem;
+      }
+
+      .nav-item:last-child .nav-link {
+        padding-left: 2rem;
+      }
+
+      .nav-item:first-child .nav-link.active {
+        padding-right: 1rem;
+      }
+
+      .nav-item:last-child .nav-link.active {
+        padding-left: 1rem;
+      }
+
+      .nav-item:last-child {
+        right: 0;
+      }
+    }
+  }
+
+  .headerSection {
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    display: flex;
+    width: 100%;
+  }
+
+  #trading-section {
+    color: #fff;
+  }
+
+  #capital-section {
+    max-height: 30rem;
+    overflow-y: scroll;
+
+    table {
+      //   font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  }
+
+  .types {
+    .card {
+      border-radius: 3.125rem;
+
+      background-position: center;
+      background-size: cover;
+
+      small {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        font-weight: lighter;
+      }
+      p {
+        font-size: 1.5rem;
+        font-weight: normal;
+      }
+    }
+  }
+
+  #position-section {
+    table {
+      //   font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  }
+
+  .types {
+    .card {
+      border-radius: 3.125rem;
+
+      background-position: center;
+      background-size: cover;
+
+      small {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        font-weight: lighter;
+      }
+      p {
+        font-size: 1.5rem;
+        font-weight: normal;
+      }
+    }
+  }
+}

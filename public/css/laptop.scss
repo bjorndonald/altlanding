@@ -1,0 +1,113 @@
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+  // CRYPTO PAGE
+  .cryptoSectionOne,
+  .cryptoSectionFive {
+    .cryptoTextWrap {
+      width: 80vw !important;
+      input {
+        width: 40% !important;
+        font-size: 3vh;
+      }
+    }
+  }
+
+  .cryptoSectionTwo {
+    height: auto;
+    .row {
+      flex-wrap: wrap;
+    }
+    .card {
+      margin: 2vw 0.5vw;
+      flex: auto;
+      max-width: 42.5vw;
+      padding: 2rem 1rem;
+      width: 45vw;
+    }
+  }
+
+  .cryptoSectionThree {
+    height: auto;
+    .row {
+      flex-wrap: wrap;
+    }
+    .col-md-3 {
+      margin: 2vw 0.5vw;
+      flex: auto;
+      max-width: 40vw;
+      padding: 2rem 1rem;
+      width: 40vw;
+    }
+  }
+
+  .cryptoSectionFour {
+    height: auto;
+    .steps {
+      .row {
+        flex-wrap: wrap;
+      }
+      .card {
+        margin: 2vw 0.5vw;
+        flex: auto !important;
+        max-width: 42.5vw !important;
+        padding: 2rem 1rem;
+        width: 42.5vw !important;
+      }
+    }
+
+    .fees-section {
+      .row {
+        flex-wrap: wrap;
+      }
+      .fee {
+        margin: 0.5rem;
+        flex: auto;
+        max-width: 40vw;
+        padding: 2rem 1rem;
+        width: 40vw;
+      }
+
+      .card {
+        border-radius: 1.5625rem !important;
+      }
+    }
+  }
+
+  // TOKEN PAGE
+  .tokenSectionOne,
+  .tokenSectionFive {
+    height: auto;
+  }
+
+  // FUNDING PAGE
+
+  .fundingSectionThree {
+    .monthly {
+      margin-left: -13%;
+    }
+    .col-md-3 {
+      flex: 0 0 35%;
+      max-width: 35%;
+    }
+
+    .col-md-2 {
+      flex: 0 0 22%;
+      max-width: 22%;
+    }
+  }
+
+  // Section Contact Us
+  .sectionContactUs {
+    height: auto;
+  }
+
+  // Customers page
+  .customersSectionOne {
+    .container {
+      max-width: 75vw;
+
+      iframe {
+        height: 50vh;
+      }
+    }
+  }
+}

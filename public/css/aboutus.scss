@@ -1,0 +1,166 @@
+.aboutUsSectionDttiy {
+  background: url(../images/aboutUsSectionEs.png) center center;
+  background-position: center;
+  background-size: cover;
+
+  .container {
+    margin-top: 0;
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 3.125rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+}
+
+.aboutUsSectionJotc {
+  height: 70vh;
+
+  .btn {
+    border-radius: 5vh;
+    padding: 1vh 3vh;
+    font-size: 3vh;
+  }
+}
+
+.aboutUsSectionOne {
+  padding-top: 3rem;
+  h1 {
+    margin-top: 4vh;
+    font-size: 7.5vh;
+    font-weight: bolder;
+    margin-bottom: 2vh;
+  }
+
+  .row {
+    padding-top: 6vh;
+  }
+
+  .aboutUsSectionOneImg {
+    margin-top: -6.5vh;
+
+    img {
+      width: 100vh;
+      max-width: 100vh;
+      height: 65vh;
+    }
+  }
+
+  .aboutUsSectionOneTitle {
+    padding: 3rem 0;
+  }
+}
+
+.aboutUsSectionEs {
+  height: 100vh;
+  // margin-top: 10vh;
+  padding-top: 20vh;
+  padding-bottom: 30vh;
+  margin-top: -5vh;
+  h2 {
+    // margin-top: -10vh;
+    font-size: 3.75rem;
+    font-weight: bolder;
+  }
+}
+
+.aboutUsSectionDttiy {
+  h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+.aboutUsSectionJotc {
+  height: 80vh;
+
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+  }
+  .btn {
+    border-radius: 3.125rem;
+    font-size: 3vh;
+  }
+
+  .btn:hover {
+    text-decoration: underline;
+  }
+}
+
+.aboutUsSectionThree {
+  margin-top: 2.5vh;
+  height: 100vh;
+  padding: 3rem 0;
+
+  h2 {
+    font-weight: bolder;
+    color: #000;
+    font-size: 3.75rem;
+  }
+
+  h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .eyntkBoxs .col-md-5 {
+    padding: 2rem 2rem;
+  }
+
+  .eyntkBox {
+    padding: 3rem 1rem 2rem 2rem;
+    // background-color: black;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding-right: 2rem;
+      padding-bottom: 1rem;
+      z-index: -1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      background-color: #ba3c85;
+
+      img {
+        width: auto;
+        height: 5rem;
+      }
+    }
+
+    h3 {
+      text-align: left;
+      color: white;
+      font-size: 2.05rem;
+    }
+    p {
+      margin: 0;
+      text-align: left;
+      font-size: 1.35rem;
+    }
+  }
+}

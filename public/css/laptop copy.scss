@@ -1,0 +1,433 @@
+@media only screen and (min-width: 480px) and (max-width: 1048px) {
+  .sectionOne {
+    height: 80vh;
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+
+    .HomeHeroVideo {
+      margin-top: -2vh;
+    }
+  }
+
+  .sectionMobile {
+    .fixedBox img {
+      width: 40rem;
+      height: auto;
+      margin-left: -18.5rem;
+    }
+
+    .sectionTwoContentWrap {
+      margin-left: 1rem;
+    }
+  }
+
+  .sectionThree {
+    .homeBoxOne .card .image {
+    }
+  }
+
+  .cryptoSectionOne,
+  .cryptoSectionFive {
+    .cryptoTextWrap {
+      width: 80vw !important;
+    }
+  }
+
+  .cryptoSectionTwo {
+    height: auto;
+    .row {
+      flex-wrap: wrap;
+    }
+    .card {
+      margin: 2vw 0.5vw;
+      flex: auto;
+      max-width: 42.5vw;
+      padding: 2rem 1rem;
+      width: 45vw;
+    }
+  }
+
+  .cryptoSectionThree {
+    height: auto;
+    .row {
+      flex-wrap: wrap;
+    }
+    .col-md-3 {
+      margin: 2vw 0.5vw;
+      flex: auto;
+      max-width: 40vw;
+      padding: 2rem 1rem;
+      width: 40vw;
+    }
+  }
+
+  .cryptoSectionFour {
+    height: auto;
+    .steps {
+      .row {
+        flex-wrap: wrap;
+      }
+      .card {
+        margin: 2vw 0.5vw;
+        flex: auto !important;
+        max-width: 42.5vw !important;
+        padding: 2rem 1rem;
+        width: 42.5vw !important;
+      }
+    }
+
+    .fees-section {
+      .row {
+        flex-wrap: wrap;
+      }
+      .fee {
+        margin: 0.5rem;
+        flex: auto;
+        max-width: 40vw;
+        padding: 2rem 1rem;
+        width: 40vw;
+      }
+
+      .card {
+        border-radius: 1.5625rem !important;
+      }
+    }
+  }
+
+  .sectionThree {
+    .col-md-6 {
+    }
+    .card {
+      max-height: 40vw;
+      height: 40vw;
+      min-height: 40vw;
+    }
+    .sectionThreeHeader {
+      max-height: 40vw;
+      height: 40vw;
+      min-height: 40vw;
+    }
+
+    .homeBoxOne {
+      video {
+        width: 20vw !important;
+        height: auto !important;
+        transform: scale(1) !important;
+        right: 2rem !important;
+        bottom: 0 !important;
+      }
+    }
+
+    .homeBoxTwo {
+      video {
+        width: 30vw;
+        height: 30vw;
+        transform: scale(1);
+        right: -2rem;
+        bottom: -2rem;
+      }
+    }
+
+    .homeBoxThree {
+      video {
+        width: 25vw !important;
+        height: 25vw !important;
+        transform: scale(1) !important;
+        right: 1rem !important;
+        bottom: 1rem !important;
+      }
+    }
+
+    .homeBoxFour {
+      video {
+        width: 25vw !important;
+        height: 25vw !important;
+        transform: scale(1) !important;
+        right: 1rem !important;
+        bottom: 1rem !important;
+      }
+    }
+  }
+
+  .fundingSectionThree {
+    .col-md-3 {
+      flex: 0 0 40%;
+      max-width: 40%;
+    }
+
+    .one-time {
+      .col-md-2 {
+        flex: 0 0 30%;
+        max-width: 30%;
+        padding-left: 0;
+      }
+
+      .pTableDetailWrap {
+        width: 150% !important;
+      }
+
+      .pTableSingleListWrap {
+      }
+    }
+  }
+
+  .fundingSectionFour {
+    .col-8 {
+      -moz-box-flex: 0;
+      flex: 0 0 90%;
+      max-width: 90%;
+    }
+  }
+}
+
+@media only screen and (min-width: 765px) and (max-width: 1048px) {
+  .helpCenterSectionFour {
+    .col-10 {
+      -moz-box-flex: 0;
+      flex: 0 0 85%;
+      max-width: 85%;
+    }
+  }
+  .sectionTwo {
+    height: 120vh;
+    .container {
+      position: relative;
+      .row {
+        justify-content: center;
+      }
+      .images {
+        flex: auto;
+        max-width: 60%;
+        width: 60%;
+        margin-top: -25rem;
+      }
+
+      .col-md-2 {
+        position: absolute;
+        left: 0;
+        height: auto;
+        top: 3rem;
+        max-width: 25%;
+
+        .sectionTwoContentWrap,
+        .sectionTwoList {
+          position: relative;
+          width: 10rem;
+          height: 5.625rem;
+        }
+      }
+
+      .descriptions {
+        position: absolute;
+        left: 0;
+        height: auto;
+        bottom: -1rem;
+        max-width: 100%;
+
+        .sectionTwoContentWrap,
+        .sectionTwoContent {
+          margin-left: 0;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    .fixedBox img {
+      // // width: 10.315625rem;
+      // // height: 22rem;
+      // width: 20.815625rem;
+      // height: 44rem;
+      // margin-left: -0.25rem !important;
+    }
+
+    .fixedBox {
+      // margin-left: 2rem;
+
+      img {
+        width: auto;
+        // margin-bottom: -2.5rem;
+        margin-left: 0rem;
+        height: 57.3125vh;
+      }
+    }
+
+    .sectionTwoContentWrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h2 {
+      display: flex;
+      font-size: 10vw;
+      justify-content: center;
+      margin-bottom: 0;
+      text-align: center;
+
+      .sectionTwoContentLine {
+        height: auto;
+      }
+    }
+
+    .button {
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      margin-top: 0rem;
+      font-size: 4vw;
+      text-align: center;
+      br {
+        display: none;
+      }
+    }
+
+    .mobImg {
+      width: 100%;
+    }
+
+    .mobImg .box img {
+    }
+  }
+
+  .fundingSectionThree {
+    .monthly {
+      .pTableDetailWrap {
+        width: 120%;
+      }
+
+      .pTableSingleListWrap {
+        width: 120%;
+      }
+    }
+
+    .col-md-2 {
+      flex: 0 0 34% !important;
+      max-width: 34% !important;
+
+      .pTableDetailWrap {
+        width: 120%;
+        margin-right: -1rem;
+        .pTableDetail {
+          padding-left: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .tokenSectionTwo {
+    height: 100vh;
+    margin-top: -15vh;
+  }
+
+  .tokenSectionFaq {
+    padding-top: 0;
+  }
+
+  .tokenSectionFive {
+    height: 75vh;
+    margin-top: -20vh;
+  }
+}
+
+@media (min-width: 1441px) {
+  .sectionMobile {
+    .fixedBox {
+      img {
+        width: auto;
+        height: 62.5vh;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1445px) {
+  .tokenSectionThree {
+    .row:first-child {
+      margin-top: 5rem;
+    }
+  }
+
+  .sectionMobile {
+    .fixedBox {
+      img {
+        height: 60.5vh;
+        width: auto;
+      }
+    }
+  }
+
+  .helpCenterSectionFour {
+    .col-10 {
+      -moz-box-flex: 0;
+      flex: 0 0 63%;
+      max-width: 63%;
+    }
+  }
+
+  .fundingSectionThree {
+    .one-time {
+      .col-md-2 {
+        flex: 0 0 30%;
+        max-width: 30%;
+      }
+      .pTableDetailWrap {
+        // width: 150% !important;
+      }
+
+      .pTableSingleListWrap {
+        // width: 120%;
+      }
+    }
+    .monthly {
+      .pTableDetailWrap {
+        width: 100%;
+        margin-right: -2rem;
+      }
+
+      .pTableSingleListWrap {
+        width: 110%;
+      }
+    }
+  }
+
+  .tokenSectionOne {
+    padding-bottom: 0;
+  }
+
+  .tokenSectionTwo {
+    padding-bottom: 0rem;
+  }
+
+  .tokenSectionThree {
+    padding: 0rem;
+
+    .row {
+      margin-top: -6rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .helpCenterSectionFour {
+    .col-10 {
+      -moz-box-flex: 0;
+      flex: 0 0 85%;
+      max-width: 85%;
+    }
+  }
+
+  .sectionTwo {
+    img {
+      height: 40.5vh;
+      width: auto;
+    }
+  }
+}

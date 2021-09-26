@@ -1,0 +1,86 @@
+.tradingBasicSectionFour {
+  .btn {
+    font-size: 1.5rem;
+  }
+
+  .btn:hover {
+    text-decoration: underline;
+  }
+}
+
+.tradingBasicSectionThree {
+  h2 {
+    margin-top: 1rem;
+    font-size: 5rem;
+    // width: 90vw;
+  }
+
+  .image {
+    min-width: 24rem;
+    width: 24rem;
+
+    height: 18rem;
+
+    img {
+      width: 100%;
+      border-radius: 1.5625rem;
+    }
+  }
+
+  .basic-content {
+    flex-direction: column;
+  }
+
+  .smallCard {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+
+    .card-body-four-line {
+      padding-left: 5rem;
+    }
+
+    h5 {
+      font-size: 3.5rem;
+      margin-top: -2rem;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      font-size: 1.65rem;
+      line-height: 2.75rem;
+      font-weight: bolder;
+
+      br {
+        display: none;
+      }
+    }
+  }
+
+  .card-body {
+    margin-left: 2rem;
+  }
+
+  .header-section {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+  }
+}
+
+.tradingBasicSectionFour {
+  height: 70vh;
+  padding: 3rem 0;
+  h4 {
+    font-size: 2.25rem;
+  }
+
+  .row {
+    padding: 3rem 0;
+  }
+
+  .btn {
+    margin-top: 2rem;
+    border-radius: 5vh;
+    padding: 1vh 3vh;
+    font-size: 3vh;
+  }
+}

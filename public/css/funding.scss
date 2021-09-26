@@ -1,0 +1,561 @@
+.fundingSectionOne {
+  .text-center {
+    margin-top: 0rem;
+
+    h1 {
+      margin-top: -12vw;
+      font-size: 4rem;
+    }
+
+    .btn {
+      background-color: white;
+      margin-top: 2rem;
+      font-weight: bold;
+      border-radius: 5vh;
+      padding: 1vh 5vh;
+      font-size: 3vh;
+    }
+
+    .btn:hover {
+      text-decoration: underline;
+    }
+  }
+
+  img {
+    // margin-left: -2.5rem;
+    width: 42.1875vw;
+    height: 42.1875vw;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1025px) {
+  .fundingSectionOne {
+    img {
+      // margin-left: -2.5rem;
+      width: 42.1875vw;
+      height: 42.1875vw;
+    }
+
+    h1 {
+      margin-top: -12vw;
+      font-size: 4rem;
+    }
+  }
+}
+
+.funding-prices {
+  a.active {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #fff;
+  }
+}
+
+.fundingSectionTwo {
+  margin-top: 5vh;
+  img {
+    width: 100%;
+  }
+}
+
+.fundingSectionThree {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  .monthly,
+  .one-time {
+    justify-content: center;
+  }
+
+  .one-time {
+    .pTableDetailWrap:first-child {
+      margin-top: 2.5rem;
+      width: 95%;
+    }
+
+    .pTableSingleListWrap {
+      width: 120%;
+    }
+  }
+  .btn-outline-dark {
+    border-radius: 3.125rem;
+  }
+  .monthly {
+    .pTableDetailWrap:first-child {
+      background-color: black;
+      color: white;
+      margin-top: 1.5rem;
+    }
+    .pTableDetailWrap {
+      width: 60%;
+      margin-right: -2rem;
+    }
+
+    .pTableSingleList h3 {
+      color: white;
+    }
+
+    .pTableSingleList p {
+      color: white;
+    }
+
+    .pTableSingleList ul li {
+      color: white;
+      background-color: transparent;
+    }
+
+    .pTableSingleListWrap {
+      background-color: #be015f;
+      color: white;
+      margin-left: -2rem;
+      width: 90%;
+
+      .cadText85 {
+        font-size: 2rem;
+        padding-top: 1rem;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        padding-bottom: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        line-height: 1rem;
+        border-radius: 3.125rem;
+      }
+    }
+  }
+}
+.priceTableNav {
+  .nav {
+    position: relative;
+    width: 14rem;
+    height: 4rem;
+
+    .nav-item {
+      position: absolute;
+      top: 0;
+      height: 4rem;
+      width: 8rem;
+
+      .nav-link {
+        background-color: #000000;
+        color: white;
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1.875rem;
+      }
+
+      .nav-link.active {
+        background-color: #ebeef5;
+        color: black;
+        border: none;
+        border-radius: 1.875rem;
+        z-index: 4;
+      }
+    }
+
+    .nav-item {
+    }
+
+    .nav-item:first-child {
+      left: 0;
+    }
+
+    .nav-item:first-child .nav-link {
+      padding-right: 2rem;
+    }
+
+    .nav-item:last-child .nav-link {
+      padding-left: 2rem;
+    }
+
+    .nav-item:first-child .nav-link.active {
+      padding-right: 1rem;
+    }
+
+    .nav-item:last-child .nav-link.active {
+      padding-left: 1rem;
+    }
+
+    .nav-item:last-child {
+      right: 0;
+    }
+  }
+}
+
+.fundingSectionTwo {
+  height: auto;
+}
+
+.fundingSectionThree {
+  margin-bottom: 10vh;
+
+  .pTableDetail ul li .pTableiconWrap {
+    height: 1.15rem;
+  }
+
+  svg {
+    fill: white;
+  }
+
+  .pTableiconWrap {
+    width: 1.5rem;
+    height: 1.125rem !important;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: inline-flex;
+    line-height: 1.0625rem;
+
+    svg {
+      min-height: 1.125rem !important;
+    }
+  }
+
+  .pTableiconWrap svg:first-child {
+    margin-bottom: 0rem !important;
+  }
+
+  .pTableiconWrap .pTableicon {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+
+  .pTableiconWrap svg:last-child {
+    margin-bottom: 0rem !important;
+  }
+
+  .pTableiconWrap .pTableicon {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+  .pTableDetail svg {
+    fill: #fff;
+  }
+
+  .data-test {
+    width: 60%;
+    margin: auto;
+    position: relative;
+
+    .details {
+      padding-top: 3rem;
+    }
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+
+      .left {
+        width: calc(20% + 5rem);
+        margin-top: 5%;
+        height: 70%;
+        margin-right: -2rem;
+        border-radius: 3.125rem;
+        background-color: black;
+      }
+
+      .right {
+        width: 40%;
+        height: 100%;
+        border-radius: 3.125rem;
+        background-color: #be015f;
+      }
+    }
+
+    .header-row {
+      display: flex;
+      justify-content: center;
+      color: #fff;
+
+      margin-bottom: 3rem;
+
+      p {
+        font-size: 0.75rem !important;
+
+        width: 100% !important;
+      }
+      .column:first-child {
+        padding-left: 2rem;
+        width: calc(20% + 2rem);
+
+        h3 {
+          margin-top: 3rem;
+        }
+      }
+      .column:last-child {
+        width: calc(40%);
+        // padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+        }
+
+        .descprition {
+          margin-bottom: -3rem;
+        }
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      // margin-bottom: ;
+    }
+
+    .left-row {
+      display: flex;
+      padding-top: 3rem;
+      // justify-content: flex-end;
+
+      .column:first-child {
+        padding-left: 2rem;
+        width: calc(20% + 2rem);
+      }
+      .column:last-child {
+        width: calc(40%);
+        // padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 3rem;
+      }
+      p {
+        width: 100% !important;
+        font-size: 0.75rem !important;
+      }
+    }
+
+    .cadText85 {
+      font-size: 2rem;
+      padding-top: 1rem;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      padding-bottom: 1rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      line-height: 1rem;
+      border-radius: 3.125rem;
+    }
+
+    .hideBtn {
+      margin-bottom: 2rem;
+    }
+
+    p:first-child {
+      width: calc(20% + 2rem);
+      color: #fff;
+      display: flex;
+      margin-bottom: 0.25rem;
+      font-size: 0.9375rem;
+      align-items: center;
+      padding-left: 2rem;
+    }
+    p:last-child {
+      margin-bottom: 0.25rem;
+      font-size: 0.9375rem;
+      color: #fff;
+      // padding-left: 5rem;
+      width: 40%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.fundingSectionFour {
+  height: 80vh;
+  margin-bottom: 0vh;
+  .nav-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .placeholder-image {
+    cursor: pointer;
+  }
+
+  .nav-link.active {
+    text-decoration: underline;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+  .nav-switch {
+    .nav-link.active {
+      text-decoration: none;
+    }
+
+    .nav-link:hover {
+      text-decoration: none;
+    }
+    .nav {
+      position: relative;
+      width: 14rem;
+      height: 3rem;
+
+      .nav-item {
+        position: absolute;
+        top: 0;
+        height: 3rem;
+        width: 8rem;
+
+        .nav-link {
+          background-color: #000000;
+          color: white;
+          width: 100%;
+          font-size: 1rem;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 1.875rem;
+        }
+
+        .nav-link.active {
+          background-color: #ebeef5;
+          color: black;
+          border: none;
+          border-radius: 1.875rem;
+          z-index: 4;
+        }
+      }
+
+      .nav-item {
+      }
+
+      .nav-item:first-child {
+        left: 0;
+      }
+
+      .nav-item:first-child .nav-link {
+        padding-right: 2rem;
+      }
+
+      .nav-item:last-child .nav-link {
+        padding-left: 2rem;
+      }
+
+      .nav-item:first-child .nav-link.active {
+        padding-right: 1rem;
+      }
+
+      .nav-item:last-child .nav-link.active {
+        padding-left: 1rem;
+      }
+
+      .nav-item:last-child {
+        right: 0;
+      }
+    }
+  }
+
+  .headerSection {
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    display: flex;
+    width: 100%;
+  }
+
+  .types {
+    // color: #fff;
+    //   .card {
+    //     border-radius: 3.125rem;
+
+    //     background-position: center;
+    //     background-size: cover;
+
+    //     small {
+    //       font-size: 1.25rem;
+    //       line-height: 1.75rem;
+    //       font-weight: lighter;
+    //     }
+    //     p {
+    //       margin-bottom: 0;
+    //       font-size: 1.5rem;
+    //       font-weight: normal;
+    //     }
+    //   }
+  }
+}
+
+.fundingSectionFive {
+}
+
+#trading-section {
+  height: 30rem;
+  overflow-y: auto;
+}
+
+#position-section {
+  height: 30rem;
+  overflow-y: scroll;
+  table {
+    color: #000;
+    //   font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+}
+
+#trading-section {
+  color: #fff;
+}
+
+// #capital-section {
+//   max-height: 30rem;
+//   overflow-y: scroll;
+
+//   table {
+//     color: #000;
+//     //   font-family: arial, sans-serif;
+//     border-collapse: collapse;
+//     width: 100%;
+//   }
+//   td,
+//   th {
+//     border: 1px solid #dddddd;
+//     text-align: left;
+//     padding: 8px;
+//   }
+//   tr:nth-child(even) {
+//     background-color: #dddddd;
+//   }
+// }
