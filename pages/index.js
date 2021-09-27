@@ -29,8 +29,8 @@ function Index (props) {
   return props.loading ? null : (
     <Fragment>
       <MetaTag
-        description={`Traders Central offers a suite of financial products, including Funding, Spot cryptocurrency Exchanging, and Liquidity services with a mission to decentralize finance to everyone.`}
-        title='Traders Central | Decentralizing Finance For Everyone'
+        description={`Choose between Monthly & One Time Fee. Trade anytime, hold trades over the weekend and scale upto $ 2 Million. Sign up now and get upto 25% off plans.`}
+        title='Funded Trader Programs | Traders Central'
       />
       <Head>
         <script
