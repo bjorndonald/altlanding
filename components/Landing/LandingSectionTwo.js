@@ -205,7 +205,7 @@ function LandingSectionTwo () {
                             </OverlayTrigger>
                           </li>
                           <li>
-                            Total Profit Target (2 Stages)
+                            Total Profit Target
                             <OverlayTrigger
                               placement={'top'}
                               overlay={
