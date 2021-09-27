@@ -1622,7 +1622,7 @@
       }
 
       .inputWrap {
-        width: 80vw;
+        width: 80vw !important;
       }
 
       .col-12 {
@@ -1641,20 +1641,48 @@
     }
   }
 
-  .landingSectionTwo {
+  .altLandingSectionTwo {
+    padding: 0 !important;
+    overflow-x: hidden;
     .btn-outline-dark {
       margin-bottom: 1rem;
+    }
+
+    .col-12 {
+      padding: 0;
+    }
+
+    li p:first-child {
+      width: 45%;
     }
 
     .pTableDetailWrap {
       width: 100%;
       margin-bottom: 1rem !important;
-      margin-right: 0rem !important;
+      // margin-right: 0rem !important;
+    }
+
+    .monthly,
+    .one-time {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      justify-content: flex-start !important;
+    }
+
+    .col-md-3 {
+      flex: 0 0 16rem !important;
+      max-width: 16rem !important;
+    }
+
+    .col-md-5 {
+      // flex: 0 0 30rem !important;
+      // min-width: 30rem;
+      // max-width: 30rem !important;
     }
 
     .pTableSingleListWrap {
       margin-bottom: 1rem !important;
-      margin-left: 0rem !important;
+      // margin-left: 0rem !important;
     }
   }
 }
