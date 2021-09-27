@@ -1614,6 +1614,10 @@
         margin-bottom: 4rem;
       }
 
+      input {
+        width: 80% !important;
+      }
+
       h2 {
         text-align: center;
       }
@@ -1653,7 +1657,7 @@
     }
 
     li p:first-child {
-      width: 45%;
+      width: 50%;
     }
 
     .pTableDetailWrap {
