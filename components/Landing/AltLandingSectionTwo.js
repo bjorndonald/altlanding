@@ -503,7 +503,7 @@ function AltLandingSectionTwo () {
                           className='btn btn-primary cadText85'
                           href='https://fund.traderscentral.com/sign-up'
                         >
-                          Get Funded
+                          Start Challenge
                         </a>
 
                         <small className='mt-2'>
